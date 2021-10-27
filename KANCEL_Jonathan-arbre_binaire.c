@@ -21,12 +21,14 @@
 #include <stdlib.h>
 
 int main() {
-		// Tableau representant l'arbre
+		// Tableaux representant l'arbre binaire
 		int n, FG[100], FD[100];
 		
+		// Definition du nombre de sommets de l'arbre
 		printf("Veuillez entrer le nombre de sommets de l'arbre binaire\n");
 		scanf(" %d", &n);
-
+		
+		// Recuperation des fils
 		for (int i=1; i<=n; i++) {
 			int filsGauche, filsDroit;
 			printf("Veuillez entrer le fils gauche du sommet a l'indice %d\n", i);
